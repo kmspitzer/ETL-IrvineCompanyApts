@@ -7,11 +7,11 @@ CREATE TABLE "apartments" (
     "apartment_id" serial   NOT NULL,
     "complex_id" integer   NOT NULL,
     "unit_id" varchar   NOT NULL,
-    "available" boolean   NOT NULL,
+    "vacant" boolean   NOT NULL,
     "plan_name" varchar   NOT NULL,
     "apt_type" varchar   NOT NULL,
-    "start_price" varchar   NOT NULL,
     "sq_ft" integer   NOT NULL,
+    "start_price" varchar   NOT NULL,
     "curr_price" integer   NOT NULL,
     "list_start_date" date   NOT NULL,
     "available_date" date   NOT NULL,
@@ -47,7 +47,7 @@ CREATE TABLE "avg_rent" (
     "rec_id" serial   NOT NULL,
     "city_id" integer   NOT NULL,
     "apt_type" varchar   NOT NULL,
-    "avg_rent" integer   NOT NULL,
+    "avg_rent" float   NOT NULL,
     CONSTRAINT "pk_avg_rent" PRIMARY KEY (
         "rec_id","city_id","apt_type"
      )
