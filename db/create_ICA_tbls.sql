@@ -10,7 +10,7 @@ CREATE TABLE "apartments" (
     "vacant" boolean   NOT NULL,
     "plan_name" varchar   NOT NULL,
     "apt_type" varchar   NOT NULL,
-    "sq_ft" integer   NOT NULL,
+    "sq_ft" varchar   NOT NULL,
     "start_price" varchar   NOT NULL,
     "curr_price" integer   NOT NULL,
     "list_start_date" date   NOT NULL,
