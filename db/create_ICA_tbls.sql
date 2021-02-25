@@ -37,8 +37,8 @@ CREATE TABLE "cities" (
     "city_name" varchar   NOT NULL,
     "population" integer   NOT NULL,
     "cost_of_living" float   NOT NULL,
-    "median_income" integer   NOT NULL,
-    "median_age" integer   NOT NULL,
+    "median_income" float   NOT NULL,
+    "median_age" float   NOT NULL,
     CONSTRAINT "pk_cities" PRIMARY KEY (
         "city_id"
      )
