@@ -17,6 +17,8 @@ how the list, or starting price, compares to the rental price in relation to the
 for the city where the apartment complex is, the cost of living for that city, and demographics information, and whether those factors seem to affect the length of time
 available and rental price.
 
+![image](/docs/icapage.png)
+
 Questions for Analysis:
 How long are apartments staying on the market by city?
 By apartment complex?
